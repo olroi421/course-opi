@@ -1,20 +1,19 @@
 site_name: Курс з основ програмної інженерії
 site_description: Повний курс з основ програмної інженерії з лекціями, лабораторними роботами та презентаціями
-site_author: Ваше ім'я
-site_url: https://yourusername.github.io/software-engineering-course/
+site_author: Олександр Ройко
+site_url: https://olroi421.github.io/course-opi/
 
 # Repository
-repo_name: yourusername/software-engineering-course
-repo_url: https://github.com/yourusername/software-engineering-course
+repo_name: olroi421/course-opi
+repo_url: https://github.com/olroi421/course-opi
 
 # Copyright
-copyright: Copyright &copy; 2025 Ваше ім'я
+copyright: Copyright &copy; 2025 Олександр Ройко
 
 theme:
   name: material
   language: uk
-  icon:
-    logo: material/laptop-code
+  logo: material/laptop-code
   features:
     - navigation.tabs
     - navigation.sections
