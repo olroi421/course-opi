@@ -21,6 +21,7 @@ theme:
     - navigation.expand
     - navigation.path
     - navigation.top
+    - navigation.footer
     - search.highlight
     - search.share
     - content.code.copy
@@ -77,6 +78,9 @@ markdown_extensions:
   - pymdownx.tilde
   - pymdownx.keys
   - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - md_in_html
   - toc:
       permalink: true
