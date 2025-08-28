@@ -13,7 +13,7 @@ copyright: Copyright &copy; 2025 Олександр Ройко
 theme:
   name: material
   language: uk
-  logo: material/laptop-code
+  logo: material/brightness-auto
   features:
     - navigation.tabs
     - navigation.sections
