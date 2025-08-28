@@ -4,6 +4,36 @@
 .mermaid {
     text-align: center;
     margin: 2rem auto;
+    background-color: transparent;
+}
+
+/* Покращення для Mermaid на темній темі */
+[data-md-color-scheme="slate"] .mermaid {
+    filter: brightness(1.1) contrast(0.95);
+}
+
+[data-md-color-scheme="slate"] .mermaid svg {
+    background-color: rgba(45, 55, 72, 0.3) !important;
+    border-radius: 0.4rem;
+    padding: 1rem;
+}
+
+/* Форсування читабельного тексту в Mermaid діаграмах на темній темі */
+[data-md-color-scheme="slate"] .mermaid .node-label,
+[data-md-color-scheme="slate"] .mermaid .edgeLabel,
+[data-md-color-scheme="slate"] .mermaid text {
+    fill: #f1f5f9 !important;
+    color: #f1f5f9 !important;
+    font-weight: 500 !important;
+}
+
+[data-md-color-scheme="slate"] .mermaid .actor-line {
+    stroke: #94a3b8 !important;
+}
+
+[data-md-color-scheme="slate"] .mermaid .messageLine0,
+[data-md-color-scheme="slate"] .mermaid .messageLine1 {
+    stroke: #94a3b8 !important;
 }
 
 /* Стилі для таблиць */
@@ -93,6 +123,11 @@
 @media screen and (max-width: 768px) {
     .mermaid {
         font-size: 0.85rem;
+        margin: 1rem auto;
+    }
+
+    [data-md-color-scheme="slate"] .mermaid svg {
+        padding: 0.5rem;
     }
 
     .md-typeset table:not([class]) {

@@ -56,8 +56,16 @@ plugins:
   - mermaid2:
       arguments:
         theme: |
-          ^(JSON.parse(window.localStorage.getItem("/__palette")).index == 1) ?
-          'dark' : 'default'
+          ^(JSON.parse(__md_get("__palette",{index:1}).index) == 1) ? 'dark' : 'default'
+        themeVariables: |
+          ^{
+            "primaryColor": "#4f46e5",
+            "primaryTextColor": "#ffffff",
+            "lineColor": "#64748b",
+            "textColor": "#f1f5f9",
+            "mainBkg": "#334155",
+            "secondBkg": "#475569"
+          }
 
 # Extensions
 markdown_extensions:
@@ -89,12 +97,33 @@ nav:
   - Лекції:
       - lectures/index.md
       - "Лекція 1: Вступ до програмної інженерії": lectures/lecture-01.md
+      - "Лекція 2: Життєвий цикл розробки ПЗ": lectures/lecture-02.md
+      - "Лекція 3: Вимоги до програмного забезпечення": lectures/lecture-03.md
+      - "Лекція 4: Архітектура програмних систем": lectures/lecture-04.md
+      - "Лекція 5: Проектування ПЗ": lectures/lecture-05.md
+      - "Лекція 6: Тестування ПЗ": lectures/lecture-06.md
+      - "Лекція 7: Управління версіями": lectures/lecture-07.md
+      - "Лекція 8: Agile методології": lectures/lecture-08.md
   - Лабораторні роботи:
       - labs/index.md
       - "Лаб 1: Налаштування середовища розробки": labs/lab-01.md
+      - "Лаб 2: Робота з системами контролю версій": labs/lab-02.md
+      - "Лаб 3: Аналіз вимог": labs/lab-03.md
+      - "Лаб 4: UML діаграми": labs/lab-04.md
+      - "Лаб 5: Модульне тестування": labs/lab-05.md
+      - "Лаб 6: Інтеграційне тестування": labs/lab-06.md
+      - "Лаб 7: Refactoring коду": labs/lab-07.md
+      - "Лаб 8: CI/CD pipeline": labs/lab-08.md
   - Презентації:
       - presentations/index.md
       - "Презентація 1: Вступ": presentations/presentation-01.md
+      - "Презентація 2: SDLC": presentations/presentation-02.md
+      - "Презентація 3: Вимоги": presentations/presentation-03.md
+      - "Презентація 4: Архітектура": presentations/presentation-04.md
+      - "Презентація 5: Проектування": presentations/presentation-05.md
+      - "Презентація 6: Тестування": presentations/presentation-06.md
+      - "Презентація 7: Git": presentations/presentation-07.md
+      - "Презентація 8: Agile": presentations/presentation-08.md
 
 # Extra CSS
 extra_css:
