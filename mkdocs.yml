@@ -1,4 +1,4 @@
-site_name: Курс з основ програмної інженерії
+site_name: Основи програмної інженерії
 site_description: Повний курс з основ програмної інженерії з лекціями, лабораторними роботами та презентаціями
 site_author: Олександр Ройко
 site_url: https://olroi421.github.io/course-opi/
@@ -14,7 +14,7 @@ theme:
   name: material
   language: uk
   icon:
-    logo: fontawesome/solid/code
+    logo: material/code/array
   features:
     - navigation.tabs
     - navigation.sections
