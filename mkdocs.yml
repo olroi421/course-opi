@@ -14,7 +14,7 @@ theme:
   name: material
   language: uk
   icon:
-    logo: material/brightness-auto
+    logo: :desktop:
   features:
     - navigation.tabs
     - navigation.sections
