@@ -15,7 +15,6 @@ theme:
   language: uk
   icon:
     logo: material/laptop-code
-  favicon: material/laptop-code
   features:
     - navigation.tabs
     - navigation.sections
