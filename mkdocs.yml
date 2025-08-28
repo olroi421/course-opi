@@ -53,19 +53,7 @@ theme:
 plugins:
   - search:
       lang: uk
-  - mermaid2:
-      arguments:
-        theme: |
-          ^(JSON.parse(__md_get("__palette",{index:1}).index) == 1) ? 'dark' : 'default'
-        themeVariables: |
-          ^{
-            "primaryColor": "#4f46e5",
-            "primaryTextColor": "#ffffff",
-            "lineColor": "#64748b",
-            "textColor": "#f1f5f9",
-            "mainBkg": "#334155",
-            "secondBkg": "#475569"
-          }
+  - mermaid2
 
 # Extensions
 markdown_extensions:
