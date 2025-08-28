@@ -1,4 +1,4 @@
-/* Додаткові стилі для курсу програмної інженерії */
+/* Спрощені стилі для курсу програмної інженерії */
 
 /* Покращення для Mermaid діаграм */
 .mermaid {
@@ -8,182 +8,101 @@
 
 /* Стилі для таблиць */
 .md-typeset table:not([class]) {
-    border: 1px solid var(--md-default-fg-color--lightest);
+    border-collapse: collapse;
     border-radius: 0.2rem;
-    box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .md-typeset table:not([class]) th {
     background-color: var(--md-primary-fg-color);
     color: var(--md-primary-bg-color);
     font-weight: 600;
+    padding: 12px 16px;
 }
 
-.md-typeset table:not([class]) tbody tr:hover {
-    background-color: var(--md-default-fg-color--lightest);
+.md-typeset table:not([class]) td {
+    padding: 12px 16px;
 }
 
-/* Кастомні кольори для різних типів контенту */
+/* Покращення для темної теми - таблиці */
+[data-md-color-scheme="slate"] .md-typeset table:not([class]) {
+    background-color: #2a2a2a;
+    border: 1px solid #404040;
+}
+
+[data-md-color-scheme="slate"] .md-typeset table:not([class]) td {
+    border-top: 1px solid #404040;
+}
+
+[data-md-color-scheme="slate"] .md-typeset table:not([class]) tbody tr:hover {
+    background-color: #333333;
+}
+
+/* Кольори для складності лабораторних */
 .lab-difficulty-1 {
     color: #22c55e;
 }
-
 .lab-difficulty-2 {
     color: #f59e0b;
 }
-
 .lab-difficulty-3 {
     color: #ef4444;
 }
-
 .lab-difficulty-4 {
     color: #a855f7;
 }
 
-/* Стилі для прогрес-барів */
-.progress-bar {
-    width: 100%;
-    height: 20px;
-    background-color: var(--md-default-fg-color--lightest);
-    border-radius: 10px;
-    overflow: hidden;
-    margin: 1rem 0;
+/* Покращення для admonition блоків на темній темі */
+[data-md-color-scheme="slate"] .md-typeset .admonition {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-left: 4px solid var(--md-accent-fg-color);
 }
 
-.progress-fill {
-    height: 100%;
-    background: linear-gradient(
-        90deg,
-        var(--md-primary-fg-color),
-        var(--md-accent-fg-color)
-    );
-    transition: width 0.3s ease;
+[data-md-color-scheme="slate"] .md-typeset .admonition > .admonition-title {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #e2e8f0;
 }
 
-/* Покращення для admonition блоків */
-.md-typeset .admonition.example {
-    border-color: #22c55e;
+/* Покращення для кодових блоків на темній темі */
+[data-md-color-scheme="slate"] .md-typeset .highlight pre {
+    background-color: #1a1a1a !important;
+    border: 1px solid #333333;
 }
 
-.md-typeset .admonition.example > .admonition-title {
-    background-color: rgba(34, 197, 94, 0.1);
+[data-md-color-scheme="slate"] .md-typeset code {
+    background-color: #2a2a2a;
+    color: #e2e8f0;
+    padding: 0.2em 0.4em;
+    border-radius: 0.2em;
 }
 
-.md-typeset .admonition.exercise {
-    border-color: #f59e0b;
+/* Покращення цитат на темній темі */
+[data-md-color-scheme="slate"] .md-typeset blockquote {
+    border-left: 4px solid var(--md-accent-fg-color);
+    background-color: rgba(255, 255, 255, 0.03);
+    padding: 1rem;
 }
 
-.md-typeset .admonition.exercise > .admonition-title {
-    background-color: rgba(245, 158, 11, 0.1);
-}
-
-/* Стилі для кодових блоків */
-.md-typeset .highlight pre {
-    border-radius: 0.4rem;
-    box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.1);
-}
-
-/* Анімації для інтерактивних елементів */
-@keyframes pulse {
-    0% {
-        opacity: 1;
-    }
-    50% {
-        opacity: 0.7;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-.pulse {
-    animation: pulse 2s infinite;
-}
-
-/* Стилі для карток контенту */
-.content-card {
-    background: var(--md-default-bg-color);
-    border: 1px solid var(--md-default-fg-color--lightest);
-    border-radius: 0.5rem;
-    padding: 1.5rem;
-    margin: 1rem 0;
-    box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.1);
-    transition: box-shadow 0.3s ease;
-}
-
-.content-card:hover {
-    box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.15);
-}
-
-/* Стилі для timeline */
-.timeline {
-    position: relative;
-    padding: 2rem 0;
-}
-
-.timeline:before {
-    content: "";
-    position: absolute;
-    left: 2rem;
-    top: 0;
-    bottom: 0;
-    width: 2px;
-    background: var(--md-primary-fg-color);
-}
-
-.timeline-item {
-    position: relative;
-    padding: 1rem 0 1rem 4rem;
-}
-
-.timeline-item:before {
-    content: "";
-    position: absolute;
-    left: 1.5rem;
-    top: 1.5rem;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background: var(--md-accent-fg-color);
-}
-
-/* Dark mode adjustments */
-[data-md-color-scheme="slate"] .content-card {
-    background: var(--md-code-bg-color);
-}
-
-/* Покращення для перемикача теми */
-.md-header__button[data-md-component="palette"] {
-    transition: transform 0.2s ease;
-}
-
-.md-header__button[data-md-component="palette"]:hover {
-    transform: scale(1.1);
+/* Покращення для горизонтальних ліній */
+[data-md-color-scheme="slate"] .md-typeset hr {
+    border-color: #404040;
 }
 
 /* Responsive adjustments */
 @media screen and (max-width: 768px) {
     .mermaid {
-        font-size: 0.8rem;
+        font-size: 0.85rem;
     }
 
     .md-typeset table:not([class]) {
         font-size: 0.9rem;
     }
 
-    .content-card {
-        margin: 0.5rem 0;
-        padding: 1rem;
+    .md-typeset table:not([class]) th,
+    .md-typeset table:not([class]) td {
+        padding: 8px 12px;
     }
-}
-
-/* Покращення для навігації */
-.md-nav__item .md-nav__link[data-md-state="blur"] {
-    color: var(--md-default-fg-color--light);
-}
-
-.md-nav__item .md-nav__link:hover {
-    color: var(--md-accent-fg-color);
 }
 
 /* Smooth scrolling */
