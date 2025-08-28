@@ -1,0 +1,192 @@
+/* Додаткові стилі для курсу програмної інженерії */
+
+/* Покращення для Mermaid діаграм */
+.mermaid {
+    text-align: center;
+    margin: 2rem auto;
+}
+
+/* Стилі для таблиць */
+.md-typeset table:not([class]) {
+    border: 1px solid var(--md-default-fg-color--lightest);
+    border-radius: 0.2rem;
+    box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.1);
+}
+
+.md-typeset table:not([class]) th {
+    background-color: var(--md-primary-fg-color);
+    color: var(--md-primary-bg-color);
+    font-weight: 600;
+}
+
+.md-typeset table:not([class]) tbody tr:hover {
+    background-color: var(--md-default-fg-color--lightest);
+}
+
+/* Кастомні кольори для різних типів контенту */
+.lab-difficulty-1 {
+    color: #22c55e;
+}
+
+.lab-difficulty-2 {
+    color: #f59e0b;
+}
+
+.lab-difficulty-3 {
+    color: #ef4444;
+}
+
+.lab-difficulty-4 {
+    color: #a855f7;
+}
+
+/* Стилі для прогрес-барів */
+.progress-bar {
+    width: 100%;
+    height: 20px;
+    background-color: var(--md-default-fg-color--lightest);
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 1rem 0;
+}
+
+.progress-fill {
+    height: 100%;
+    background: linear-gradient(
+        90deg,
+        var(--md-primary-fg-color),
+        var(--md-accent-fg-color)
+    );
+    transition: width 0.3s ease;
+}
+
+/* Покращення для admonition блоків */
+.md-typeset .admonition.example {
+    border-color: #22c55e;
+}
+
+.md-typeset .admonition.example > .admonition-title {
+    background-color: rgba(34, 197, 94, 0.1);
+}
+
+.md-typeset .admonition.exercise {
+    border-color: #f59e0b;
+}
+
+.md-typeset .admonition.exercise > .admonition-title {
+    background-color: rgba(245, 158, 11, 0.1);
+}
+
+/* Стилі для кодових блоків */
+.md-typeset .highlight pre {
+    border-radius: 0.4rem;
+    box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.1);
+}
+
+/* Анімації для інтерактивних елементів */
+@keyframes pulse {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.7;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.pulse {
+    animation: pulse 2s infinite;
+}
+
+/* Стилі для карток контенту */
+.content-card {
+    background: var(--md-default-bg-color);
+    border: 1px solid var(--md-default-fg-color--lightest);
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.content-card:hover {
+    box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.15);
+}
+
+/* Стилі для timeline */
+.timeline {
+    position: relative;
+    padding: 2rem 0;
+}
+
+.timeline:before {
+    content: "";
+    position: absolute;
+    left: 2rem;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: var(--md-primary-fg-color);
+}
+
+.timeline-item {
+    position: relative;
+    padding: 1rem 0 1rem 4rem;
+}
+
+.timeline-item:before {
+    content: "";
+    position: absolute;
+    left: 1.5rem;
+    top: 1.5rem;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--md-accent-fg-color);
+}
+
+/* Dark mode adjustments */
+[data-md-color-scheme="slate"] .content-card {
+    background: var(--md-code-bg-color);
+}
+
+/* Покращення для перемикача теми */
+.md-header__button[data-md-component="palette"] {
+    transition: transform 0.2s ease;
+}
+
+.md-header__button[data-md-component="palette"]:hover {
+    transform: scale(1.1);
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .mermaid {
+        font-size: 0.8rem;
+    }
+
+    .md-typeset table:not([class]) {
+        font-size: 0.9rem;
+    }
+
+    .content-card {
+        margin: 0.5rem 0;
+        padding: 1rem;
+    }
+}
+
+/* Покращення для навігації */
+.md-nav__item .md-nav__link[data-md-state="blur"] {
+    color: var(--md-default-fg-color--light);
+}
+
+.md-nav__item .md-nav__link:hover {
+    color: var(--md-accent-fg-color);
+}
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
