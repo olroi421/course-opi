@@ -24,18 +24,27 @@ theme:
     - content.code.copy
     - content.code.annotate
   palette:
-    - scheme: default
+    # Автоматична тема (за замовчуванням)
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Перемкнути на світлу тему
+    # Світла тема
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
       primary: indigo
       accent: indigo
       toggle:
         icon: material/brightness-7
         name: Перемкнути на темну тему
-    - scheme: slate
+    # Темна тема
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
       primary: indigo
       accent: indigo
       toggle:
         icon: material/brightness-4
-        name: Перемкнути на світлу тему
+        name: Перемкнути на автоматичну тему
 
 # Plugins
 plugins:
