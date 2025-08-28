@@ -26,6 +26,9 @@ theme:
   palette:
     # Автоматична тема (за замовчуванням)
     - media: "(prefers-color-scheme)"
+      scheme: default
+      primary: indigo
+      accent: indigo
       toggle:
         icon: material/brightness-auto
         name: Перемкнути на світлу тему
@@ -99,4 +102,5 @@ extra_css:
 
 # Extra JavaScript
 extra_js:
+  - javascripts/theme-persistence.js
   - https://unpkg.com/mermaid/dist/mermaid.min.js
