@@ -104,17 +104,6 @@ graph TB
     Services -->|Кешування| Cache
     Cache -->|Швидкий доступ| Services
     PostgreSQL -->|Дані| Models
-
-    %% Стилізація
-    classDef client fill:#a8d5ff,stroke:#333,stroke-width:2px
-    classDef api fill:#98ff98,stroke:#333,stroke-width:2px
-    classDef app fill:#ffb366,stroke:#333,stroke-width:2px
-    classDef db fill:#ff9999,stroke:#333,stroke-width:2px
-
-    class Web,Mobile,ThirdParty client
-    class Endpoints,Auth,Validation api
-    class Services,Models,Utils app
-    class PostgreSQL,Cache db
 ```
 
 Практичне застосування
