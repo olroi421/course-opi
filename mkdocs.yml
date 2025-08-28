@@ -1,0 +1,114 @@
+site_name: Курс з основ програмної інженерії
+site_description: Повний курс з основ програмної інженерії з лекціями, лабораторними роботами та презентаціями
+site_author: Ваше ім'я
+site_url: https://yourusername.github.io/software-engineering-course/
+
+# Repository
+repo_name: yourusername/software-engineering-course
+repo_url: https://github.com/yourusername/software-engineering-course
+
+# Copyright
+copyright: Copyright &copy; 2025 Ваше ім'я
+
+theme:
+  name: material
+  language: uk
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.top
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.code.annotate
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Перемкнути на темну тему
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Перемкнути на світлу тему
+
+# Plugins
+plugins:
+  - search:
+      lang: uk
+  - mermaid2:
+      arguments:
+        theme: |
+          ^(JSON.parse(window.localStorage.getItem("/__palette")).index == 1) ?
+          'dark' : 'default'
+
+# Extensions
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.mark
+  - pymdownx.caret
+  - pymdownx.tilde
+  - pymdownx.keys
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+
+# Navigation
+nav:
+  - Головна: index.md
+  - Лекції:
+      - lectures/index.md
+      - "Лекція 1: Вступ до програмної інженерії": lectures/lecture-01.md
+      - "Лекція 2: Життєвий цикл розробки ПЗ": lectures/lecture-02.md
+      - "Лекція 3: Вимоги до програмного забезпечення": lectures/lecture-03.md
+      - "Лекція 4: Архітектура програмних систем": lectures/lecture-04.md
+      - "Лекція 5: Проектування ПЗ": lectures/lecture-05.md
+      - "Лекція 6: Тестування ПЗ": lectures/lecture-06.md
+      - "Лекція 7: Управління версіями": lectures/lecture-07.md
+      - "Лекція 8: Agile методології": lectures/lecture-08.md
+  - Лабораторні роботи:
+      - labs/index.md
+      - "Лаб 1: Налаштування середовища розробки": labs/lab-01.md
+      - "Лаб 2: Робота з системами контролю версій": labs/lab-02.md
+      - "Лаб 3: Аналіз вимог": labs/lab-03.md
+      - "Лаб 4: UML діаграми": labs/lab-04.md
+      - "Лаб 5: Модульне тестування": labs/lab-05.md
+      - "Лаб 6: Інтеграційне тестування": labs/lab-06.md
+      - "Лаб 7: Refactoring коду": labs/lab-07.md
+      - "Лаб 8: CI/CD pipeline": labs/lab-08.md
+  - Презентації:
+      - presentations/index.md
+      - "Презентація 1: Вступ": presentations/presentation-01.md
+      - "Презентація 2: SDLC": presentations/presentation-02.md
+      - "Презентація 3: Вимоги": presentations/presentation-03.md
+      - "Презентація 4: Архітектура": presentations/presentation-04.md
+      - "Презентація 5: Проектування": presentations/presentation-05.md
+      - "Презентація 6: Тестування": presentations/presentation-06.md
+      - "Презентація 7: Git": presentations/presentation-07.md
+      - "Презентація 8: Agile": presentations/presentation-08.md
+
+# Extra CSS
+extra_css:
+  - stylesheets/extra.css
+
+# Extra JavaScript
+extra_js:
+  - https://unpkg.com/mermaid/dist/mermaid.min.js
