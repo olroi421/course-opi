@@ -13,7 +13,8 @@ copyright: Copyright &copy; 2025 Ваше ім'я
 theme:
   name: material
   language: uk
-  logo: material/laptop-code
+  icon:
+    logo: material/laptop-code
   favicon: material/laptop-code
   features:
     - navigation.tabs
