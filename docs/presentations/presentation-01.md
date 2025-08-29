@@ -154,7 +154,7 @@ graph TD
 ## Принцип модульності: E-commerce
 
 ```mermaid
-graph TD
+graph LR
     A[🏪 E-commerce Platform] --> B[👤 User Management]
     A --> C[📦 Product Catalog]
     A --> D[🛒 Shopping Cart]
