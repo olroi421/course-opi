@@ -90,7 +90,7 @@ nav:
   - Головна: index.md
   - Лекції:
       - lectures/index.md
-      - "Вступ до програмної інженерії та її місце в IT": lectures/lecture-01.md
+      - "Лекція 1. Вступ до програмної інженерії та її місце в IT": lectures/lecture-01.md
   - Лабораторні роботи:
       - labs/index.md
       - "Лаб 1: Налаштування середовища розробки": labs/lab-01.md
@@ -105,4 +105,5 @@ extra_css:
 # Extra JavaScript
 extra_js:
   - javascripts/theme-persistence.js
+  - javascripts/mermaid-zoom.js
   - https://unpkg.com/mermaid/dist/mermaid.min.js
