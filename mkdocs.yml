@@ -61,6 +61,7 @@ plugins:
   - search:
       lang: uk
   - mermaid2
+  - typeset
 
 # Extensions
 markdown_extensions:
