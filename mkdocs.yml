@@ -95,12 +95,15 @@ nav:
   - Лекції:
       - lectures/index.md
       - "Лекція 1. Вступ до програмної інженерії та її місце в IT": lectures/lecture-01.md
+      - "Лекція 2. Сучасні технології та інструменти розробки": lectures/lecture-02.md
+
   - Лабораторні роботи:
       - labs/index.md
       - "Лабораторна 1. Розробка швидкого прототипу вебзастосунку на Replit": labs/lab-01.md
   - Презентації:
       - presentations/index.md
       - "Вступ до програмної інженерії та її місце в IT": presentations/presentation-01.md
+      - "Сучасні технології та інструменти розробки": presentations/presentation-02.md
 
 # Extra CSS
 extra_css:
