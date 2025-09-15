@@ -96,6 +96,7 @@ nav:
       - lectures/index.md
       - "Лекція 1. Вступ до програмної інженерії та її місце в IT": lectures/lecture-01.md
       - "Лекція 2. Сучасні технології та інструменти розробки": lectures/lecture-02.md
+      - "Лекція 3. Життєвий цикл розробки програмного забезпечення (SDLC)": lectures/lecture-03.md
 
   - Лабораторні роботи:
       - labs/index.md
@@ -104,6 +105,7 @@ nav:
       - presentations/index.md
       - "Вступ до програмної інженерії та її місце в IT": presentations/presentation-01.md
       - "Сучасні технології та інструменти розробки": presentations/presentation-02.md
+      - "Життєвий цикл розробки програмного забезпечення (SDLC)": presentations/presentation-03.md
 
 # Extra CSS
 extra_css:
