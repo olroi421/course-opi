@@ -253,6 +253,8 @@ git config --global user.email "your.email@example.com"
 5. як відповідь на завдання в LMS Moodle завантажити звіт `report-student_name.md`;
 6. захистити лабораторну перед викладачем.
 
+[:fontawesome-solid-cloud-upload: Здати лабораторну роботу](http://194.187.154.85/moodle/course/view.php?id=1426#section-2){ .md-button .md-button--primary }
+
 
 ## 📋 Шаблон звіту
 
