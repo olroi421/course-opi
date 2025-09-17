@@ -164,11 +164,11 @@ gitgraph
 
 ## ▶️ Хід роботи
 
-!!! alert "Перед виконанням лабораторної"
+!!! tip "Перед виконанням лабораторної"
     Рекомендується попрактикуватись з git в онлайн симуляторах та переглянути документацію:
 
-    - [Learn Git Branching](https://learngitbranching.js.org/?locale=uk)
     - [Git Simulator Online](https://webutility.io/git-simulator-online)
+    - [Learn Git Branching](https://learngitbranching.js.org/?locale=uk)
     - [Pro Git book](https://git-scm.com/book/uk/v2)
 
 
