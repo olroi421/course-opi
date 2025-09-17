@@ -120,8 +120,8 @@
 5. Підготовка, здача та захист лабораторної:
     1. переконатись, що проєкт запускається без помилок;
     2. створити посилання для доступу до застосунку;
-    3. підготувати звіт за запропонованим шаблоном ([:fontawesome-solid-download: завантажити шаблон](assets/lab01-report-template.download){: download="report.md" });
-    4. як відповідь на завдання в LMS Moodle завантажити звіт `report.md`;
+    3. підготувати звіт за запропонованим шаблоном ([:fontawesome-solid-download: завантажити шаблон](assets/lab01-report-template.download){: download="lab01-report.md" });
+    4. як відповідь на завдання в LMS Moodle завантажити звіт `lab01-report.md`;
     5. захистити лабораторну перед викладачем.
 
 [:fontawesome-solid-cloud-upload: Здати лабораторну роботу](http://194.187.154.85/moodle/course/view.php?id=1426#section-2){ .md-button .md-button--primary }
