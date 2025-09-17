@@ -164,6 +164,14 @@ gitgraph
 
 ## ▶️ Хід роботи
 
+!!! alert "Перед виконанням лабораторної"
+    Рекомендується попрактикуватись з git в онлайн симуляторах та переглянути документацію:
+
+    - [Learn Git Branching](https://learngitbranching.js.org/?locale=uk)
+    - [Git Simulator Online](https://webutility.io/git-simulator-online)
+    - [Pro Git book](https://git-scm.com/book/uk/v2)
+
+
 1. Формування команди та планування:
     1. Створення команди:
         1. сформувати команду з 3-4 осіб;
@@ -234,7 +242,7 @@ gitgraph
     1. оновити README.md з детальним описом проєкту;
     2. додати інструкції з встановлення та запуску;
     3. додати CHANGELOG.md з історією змін;
-    4. створити і додати `lab02-report.md` для кожного учасника команди відповідно до шаблону звіту ([:fontawesome-solid-download: завантажити шаблон](assets/lab02-report.download){: download="lab02-report-template.md" });
+    4. створити і додати `lab02-report.md` для кожного учасника команди відповідно до шаблону звіту ([:fontawesome-solid-download: завантажити шаблон](assets/lab02-report-template.download){: download="lab02-report.md" });
     5. як відповідь на завдання в LMS Moodle завантажити звіт `lab02-report.md`;
     6. захистити лабораторну перед викладачем.
 
