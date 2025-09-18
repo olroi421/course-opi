@@ -110,7 +110,7 @@ graph LR
 **Feature Branch Workflow** — кожна нова функція розробляється в окремій гілці. Після завершення роботи гілка зливається з основною через Pull Request.
 
 ```mermaid
-gitgraph
+gitGraph
     commit id: "Initial commit"
     branch feature-login
     checkout feature-login
