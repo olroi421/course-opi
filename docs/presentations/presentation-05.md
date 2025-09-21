@@ -5,7 +5,7 @@
 ## Проблеми каскадної моделі
 
 ```mermaid
-graph LR
+graph TD
     A[📋 Аналіз вимог] --> B[🎨 Проєктування]
     B --> C[💻 Кодування]
     C --> D[🧪 Тестування]
@@ -47,7 +47,7 @@ graph LR
 ## Чотири основні цінності
 
 ```mermaid
-graph TB
+graph TD
     A[🎯 Agile Цінності] --> B[👥 Люди та взаємодія]
     A --> C[💻 Робоче ПЗ]
     A --> D[🤝 Співпраця з замовником]
@@ -81,7 +81,7 @@ graph TB
 ### 🎯 **Функціональність понад документацію**
 
 ```mermaid
-graph LR
+graph TD
     A[📄 Традиційний підхід] --> A1[Сотні сторінок специфікацій]
     B[💻 Agile підхід] --> B1[Робочий прототип за 2 тижні]
 
@@ -160,7 +160,7 @@ graph TB
 ## Ітеративна та інкрементальна розробка
 
 ```mermaid
-graph LR
+graph TD
     A[📅 Ітерація 1<br/>2 тижні] --> B[📅 Ітерація 2<br/>2 тижні]
     B --> C[📅 Ітерація 3<br/>2 тижні]
     C --> D[📅 Ітерація N<br/>2 тижні]
@@ -241,7 +241,7 @@ graph TB
 
 ### 🏗️ **Традиційний підхід:**
 ```mermaid
-graph LR
+graph TD
     A[📋 Детальний план] --> B[🔍 Аналіз ризиків]
     B --> C[📊 Мітигація ризиків]
     C --> D[⚠️ Ризик все одно реалізується]
@@ -250,7 +250,7 @@ graph LR
 
 ### 🚀 **Agile підхід:**
 ```mermaid
-graph LR
+graph TD
     A[🔄 Короткі ітерації] --> B[⚡ Швидке виявлення]
     B --> C[🛠️ Швидке виправлення]
     C --> D[📈 Постійне навчання]
@@ -279,7 +279,7 @@ graph LR
 ## Scrum: найпопулярніший фреймворк
 
 ```mermaid
-graph LR
+graph TD
     A[📋 Product Backlog] --> B[🎯 Sprint Planning]
     B --> C[📝 Sprint Backlog]
     C --> D[⏰ Sprint 1-4 тижні]
@@ -308,7 +308,7 @@ graph LR
 ## Kanban: візуальне управління потоком
 
 ```mermaid
-graph LR
+graph TD
     A[📝 To Do<br/>WIP: ∞] --> B[⚙️ In Progress<br/>WIP: 3]
     B --> C[🧪 Testing<br/>WIP: 2]
     C --> D[✅ Done<br/>WIP: ∞]
@@ -446,7 +446,7 @@ graph TB
 ### 📈 **Velocity - швидкість команди:**
 
 ```mermaid
-graph LR
+graph TD
     A[Спринт 1<br/>20 SP] --> B[Спринт 2<br/>25 SP]
     B --> C[Спринт 3<br/>22 SP]
     C --> D[Спринт 4<br/>24 SP]
@@ -467,7 +467,7 @@ graph LR
 ### 📊 **Burndown Chart - прогрес спринту:**
 
 ```mermaid
-graph LR
+graph TD
     A[День 1<br/>100 SP] --> B[День 3<br/>85 SP]
     B --> C[День 7<br/>60 SP]
     C --> D[День 10<br/>25 SP]
@@ -566,7 +566,7 @@ graph LR
 ### 🔄 **Agile + DevOps:**
 
 ```mermaid
-graph LR
+graph TD
     A[💻 Розробка<br/>Agile] --> B[🔄 CI/CD Pipeline]
     B --> C[🚀 Автодеплой]
     C --> D[📊 Моніторинг]
