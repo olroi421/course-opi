@@ -354,7 +354,7 @@ f) Очищення невикористаних стилів: Tailwind вико
 
 Це дозволить вам використовувати класи Tailwind у всіх ваших шаблонах без додаткової конфігурації.
 
-# 🟣 Ресурси
+## 🟣 Ресурси
 
 - [Welcome to Flask — Flask Documentation (3.0.x)](https://flask.palletsprojects.com/en/3.0.x/#user-s-guide)
 - [Flask www.youtube.com](https://www.youtube.com/results?search_query=flask)
