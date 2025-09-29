@@ -104,6 +104,7 @@ nav:
       - labs/index.md
       - "Лабораторна 1. Розробка швидкого прототипу вебзастосунку на Replit": labs/lab-01.md
       - "Лабораторна 2. Налаштування середовища розробки та Git workflow": labs/lab-02.md
+      - "Лабораторна 3. Розробка базового вебпроєкту": labs/lab-03.md
   - Презентації:
       - presentations/index.md
       - "Вступ до програмної інженерії та її місце в IT": presentations/presentation-01.md

@@ -357,9 +357,9 @@ f) Очищення невикористаних стилів: Tailwind вико
 # 🟣 Ресурси
 
 - [Welcome to Flask — Flask Documentation (3.0.x)](https://flask.palletsprojects.com/en/3.0.x/#user-s-guide)
-- [www.youtube.com](https://www.youtube.com/results?search_query=flask)
+- [Flask www.youtube.com](https://www.youtube.com/results?search_query=flask)
 - [Installation - Tailwind CSS](https://tailwindcss.com/docs/installation)
-- [www.youtube.com](https://www.youtube.com/results?search_query=tailwind+css)
+- [Tailwind CSS www.youtube.com](https://www.youtube.com/results?search_query=tailwind+css)
 
 ## ▶️ Хід роботи
 
@@ -367,7 +367,6 @@ f) Очищення невикористаних стилів: Tailwind вико
     1. Завантажте та встановіть Python з офіційного сайту: [https://www.python.org/downloads/](https://www.python.org/downloads/)
     2. Переконайтеся, що Python доданий до системного PATH.
     3. Виконайте команду для встановлення Flask:
-
     ```bash
     pip install flask
     ```
