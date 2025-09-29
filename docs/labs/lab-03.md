@@ -370,7 +370,6 @@ f) Очищення невикористаних стилів: Tailwind вико
     ```bash
     pip install flask
     ```
-
 1. Створення базової структури Flask додатку:
     1. Завантажити приклад виконання лабораторної роботи ([:fontawesome-solid-archive: навчальний додаток](assets/lab03-flaskProject.zip){: download="lab03-flaskProject.zip" })
     2. В директорію з проєктом розархівувати навчальний додаток, який можна брати за основу.
@@ -383,7 +382,7 @@ f) Очищення невикористаних стилів: Tailwind вико
     2. Внесок кожного учасника команди повинен бути чітким та зрозумілим,.
 2. Підготовка звіту лабораторної роботи:
     1. створити директорію `lab-reports/` і додати `lab03-report-student-id.md` для кожного учасника команди відповідно до шаблону звіту ([:fontawesome-solid-download: завантажити шаблон](assets/lab03-report-template.download){: download="lab03-report.md" });
-    2. як відповідь на завдання в LMS Moodle завантажити звіт `lab03-report.md`;
+    2. як відповідь на завдання в LMS Moodle дати посилання на репозиторій з проєктом;
     3. захистити лабораторну перед викладачем.
 
 [:fontawesome-solid-cloud-upload: Здати лабораторну роботу](http://194.187.154.85/moodle/course/view.php?id=1426#section-2){ .md-button .md-button--primary }
