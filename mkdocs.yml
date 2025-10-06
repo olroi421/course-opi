@@ -100,6 +100,9 @@ nav:
       - "Лекція 4 Вступ до програмної інженерії та її місце в IT": lectures/lecture-04.md
       - "Лекція 5 Сучасні технології та інструменти розробки": lectures/lecture-05.md
       - "Лекція 6 Життєвий цикл розробки програмного забезпечення (SDLC)": lectures/lecture-06.md
+      - "Лекція 7 Основи ООП": lectures/lecture-07.md
+      - "Лекція 8 Принципи проектування: SOLID, DRY, KISS": lectures/lecture-08.md
+      - "Лекція 9 Типи архітектур ПЗ": lectures/lecture-09.md
   - Лабораторні роботи:
       - labs/index.md
       - "Лабораторна 1 Розробка швидкого прототипу вебзастосунку на Replit": labs/lab-01.md
@@ -113,6 +116,9 @@ nav:
       - "Вимоги до ПЗ: збір, аналіз, документування": presentations/presentation-04.md
       - "Гнучкі методології: Agile Manifesto та принципи": presentations/presentation-05.md
       - "Scrum та Kanban": presentations/presentation-06.md
+      - "Основи ООП": presentations/presentation-07.md
+      - "Принципи проектування: SOLID, DRY, KISS": presentations/presentation-08.md
+      - "Типи архітектур ПЗ": presentations/presentation-09.md
 
 # Extra CSS
 extra_css:

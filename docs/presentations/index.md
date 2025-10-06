@@ -8,3 +8,6 @@
 4. [Вимоги до ПЗ: збір, аналіз, документування](presentation-04.md)
 5. [Гнучкі методології: Agile Manifesto та принципи](presentation-05.md)
 6. [Scrum та Kanban](presentation-06.md)
+7. [Основи ООП](presentation-07.md)
+8. [Принципи проектування: SOLID, DRY, KISS](presentation-08.md)
+9. [Типи архітектур ПЗ](presentation-09.md)
