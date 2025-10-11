@@ -103,6 +103,9 @@ nav:
       - "Лекція 7 Основи ООП": lectures/lecture-07.md
       - "Лекція 8 Принципи проектування: SOLID, DRY, KISS": lectures/lecture-08.md
       - "Лекція 9 Типи архітектур ПЗ": lectures/lecture-09.md
+      - "Лекція 10 Реляційні бази даних: основи проектування та SQL": lectures/lecture-10.md
+      - "Лекція 11 NoSQL бази даних: типи та особливості": lectures/lecture-11.md
+      - "Лекція 12 RESTful API: принципи проектування, тестування та документування": lectures/lecture-12.md
   - Лабораторні роботи:
       - labs/index.md
       - "Лабораторна 1 Розробка швидкого прототипу вебзастосунку на Replit": labs/lab-01.md
@@ -119,6 +122,9 @@ nav:
       - "Основи ООП": presentations/presentation-07.md
       - "Принципи проектування: SOLID, DRY, KISS": presentations/presentation-08.md
       - "Типи архітектур ПЗ": presentations/presentation-09.md
+      - "Реляційні бази даних: основи проектування та SQL": presentations/presentation-10.md
+      - "NoSQL бази даних: типи та особливості": presentations/presentation-11.md
+      - "RESTful API: принципи проектування, тестування та документування": presentations/presentation-12.md
 
 # Extra CSS
 extra_css:

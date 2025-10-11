@@ -11,3 +11,6 @@
 7. [Основи ООП](presentation-07.md)
 8. [Принципи проектування: SOLID, DRY, KISS](presentation-08.md)
 9. [Типи архітектур ПЗ](presentation-09.md)
+10. [Реляційні бази даних: основи проектування та SQL](presentation-10.md)
+11. [NoSQL бази даних: типи та особливості](presentation-11.md)
+12. [RESTful API: принципи проектування, тестування та документування](presentation-12.md)
