@@ -190,8 +190,6 @@ graph LR
     C --> F{Continuous Deployment}
     F -->|Автоматично| E
 
-    style D fill:#feca57
-    style F fill:#48dbfb
 ```
 
 **Delivery** — готовність до релізу
