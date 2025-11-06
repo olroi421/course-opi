@@ -461,7 +461,7 @@ def delete_product(product_id):
   "data": {}
 }
 ```
-- **Скріншот з Postman:**
+- **Скріншот з Postman (або Swagger):**
 ![Опис](шлях/до/скріншоту.png)
 
 [Повторити для всіх endpoints]
@@ -481,26 +481,6 @@ def delete_product(product_id):
 - `400 Bad Request` - [коли виникає]
 - `404 Not Found` - [коли виникає]
 - `500 Internal Server Error` - [коли виникає]
-
-## Інструкція з запуску
-
-1. Клонувати репозиторій:
-```bash
-git clone [посилання на репозиторій]
-```
-
-2. Встановити залежності:
-```bash
-pip install -r requirements.txt
-```
-
-3. Запустити додаток:
-```bash
-python app.py
-```
-
-4. API доступний за адресою: `http://localhost:5000`
-
 ````
 
 [:fontawesome-solid-cloud-upload: Здати лабораторну роботу](http://194.187.154.85/moodle/course/view.php?id=1426#section-2){ .md-button .md-button--primary }
