@@ -501,19 +501,6 @@ python app.py
 
 4. API доступний за адресою: `http://localhost:5000`
 
-## Структура проєкту
-````
-project/
-├── app.py
-├── models.py
-├── database.db
-├── requirements.txt
-├── README.md
-└── screenshots/
-    ├── endpoint1.png
-    ├── endpoint2.png
-    └── ...
-````
 ````
 
 [:fontawesome-solid-cloud-upload: Здати лабораторну роботу](http://194.187.154.85/moodle/course/view.php?id=1426#section-2){ .md-button .md-button--primary }
